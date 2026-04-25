@@ -19,6 +19,7 @@ app.add_middleware(
         "http://localhost:3001",
         "http://localhost:3002",
         "https://*.vercel.app",
+        "https://ghost-hiring-audit.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
